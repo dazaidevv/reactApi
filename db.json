@@ -1,109 +1,364 @@
 {
-  "books" : [
-  {
-    "id": 1,
-    "name": "The Great Gatsby",
-    "author": "F. Scott Fitzgerald",
-    "price": 15.99,
-    "image": "https://example.com/great-gatsby.jpg"
-  },
-  {
-    "id": 2,
-    "name": "To Kill a Mockingbird",
-    "author": "Harper Lee",
-    "price": 12.49,
-    "image": "https://example.com/to-kill-a-mockingbird.jpg"
-  },
-  {
-    "id": 3,
-    "name": "1984",
-    "author": "George Orwell",
-    "price": 10.99,
-    "image": "https://example.com/1984.jpg"
-  },
-  {
-    "id": 4,
-    "name": "The Catcher in the Rye",
-    "author": "J.D. Salinger",
-    "price": 14.79,
-    "image": "https://example.com/catcher-in-the-rye.jpg"
-  },
-  {
-    "id": 5,
-    "name": "Harry Potter and the Sorcerer's Stone",
-    "author": "J.K. Rowling",
-    "price": 19.99,
-    "image": "https://example.com/harry-potter.jpg"
-  },
-  {
-    "id": 6,
-    "name": "The Hobbit",
-    "author": "J.R.R. Tolkien",
-    "price": 18.99,
-    "image": "https://example.com/the-hobbit.jpg"
-  },
-  {
-    "id": 7,
-    "name": "Pride and Prejudice",
-    "author": "Jane Austen",
-    "price": 13.75,
-    "image": "https://example.com/pride-and-prejudice.jpg"
-  },
-  {
-    "id": 8,
-    "name": "The Martian",
-    "author": "Andy Weir",
-    "price": 16.99,
-    "image": "https://example.com/the-martian.jpg"
-  },
-  {
-    "id": 9,
-    "name": "The Alchemist",
-    "author": "Paulo Coelho",
-    "price": 14.25,
-    "image": "https://example.com/the-alchemist.jpg"
-  },
-  {
-    "id": 10,
-    "name": "Moby-Dick",
-    "author": "Herman Melville",
-    "price": 22.49,
-    "image": "https://example.com/moby-dick.jpg"
-  },
-  {
-    "id": 11,
-    "name": "The Odyssey",
-    "author": "Homer",
-    "price": 17.99,
-    "image": "https://example.com/the-odyssey.jpg"
-  },
-  {
-    "id": 12,
-    "name": "The Shining",
-    "author": "Stephen King",
-    "price": 20.49,
-    "image": "https://example.com/the-shining.jpg"
-  },
-  {
-    "id": 13,
-    "name": "Brave New World",
-    "author": "Aldous Huxley",
-    "price": 15.99,
-    "image": "https://example.com/brave-new-world.jpg"
-  },
-  {
-    "id": 14,
-    "name": "Frankenstein",
-    "author": "Mary Shelley",
-    "price": 12.99,
-    "image": "https://example.com/frankenstein.jpg"
-  },
-  {
-    "id": 15,
-    "name": "The Catcher in the Rye",
-    "author": "J.D. Salinger",
-    "price": 14.79,
-    "image": "https://example.com/catcher-in-the-rye.jpg"
-  }
-]
+  "books": [
+    {
+      "id": 1,
+      "name": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "price": 15.99,
+      "image": "https://example.com/great-gatsby.jpg",
+      "description": "A classic novel depicting the roaring twenties in America."
+    },
+    {
+      "id": 2,
+      "name": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "price": 12.49,
+      "image": "https://example.com/to-kill-a-mockingbird.jpg",
+      "description": "A powerful portrayal of racial injustice in the American South."
+    },
+    {
+      "id": 3,
+      "name": "1984",
+      "author": "George Orwell",
+      "price": 10.99,
+      "image": "https://example.com/1984.jpg",
+      "description": "A dystopian novel exploring the dangers of totalitarianism."
+    },
+    {
+      "id": 4,
+      "name": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "price": 14.79,
+      "image": "https://example.com/catcher-in-the-rye.jpg",
+      "description": "A classic coming-of-age novel capturing the angst of adolescence."
+    },
+    {
+      "id": 5,
+      "name": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "price": 19.99,
+      "image": "https://example.com/harry-potter.jpg",
+      "description": "The first book in the beloved Harry Potter series, introducing the magical world of Hogwarts."
+    },
+    {
+      "id": 6,
+      "name": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "price": 18.99,
+      "image": "https://example.com/the-hobbit.jpg",
+      "description": "A classic fantasy novel, the precursor to The Lord of the Rings trilogy."
+    },
+    {
+      "id": 7,
+      "name": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "price": 13.75,
+      "image": "https://example.com/pride-and-prejudice.jpg",
+      "description": "A timeless romantic novel exploring themes of love and societal expectations."
+    },
+    {
+      "id": 8,
+      "name": "The Martian",
+      "author": "Andy Weir",
+      "price": 16.99,
+      "image": "https://example.com/the-martian.jpg",
+      "description": "A science fiction novel about an astronaut stranded on Mars and his struggle for survival."
+    },
+    {
+      "id": 9,
+      "name": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 14.25,
+      "image": "https://example.com/the-alchemist.jpg",
+      "description": "A philosophical novel about a young shepherd's journey to discover his personal legend."
+    },
+    {
+      "id": 10,
+      "name": "Moby-Dick",
+      "author": "Herman Melville",
+      "price": 22.49,
+      "image": "https://example.com/moby-dick.jpg",
+      "description": "An epic novel exploring the obsession of Captain Ahab with the white whale, Moby-Dick."
+    },
+    {
+      "id": 11,
+      "name": "The Odyssey",
+      "author": "Homer",
+      "price": 17.99,
+      "image": "https://example.com/the-odyssey.jpg",
+      "description": "An ancient Greek epic poem telling the story of Odysseus's adventures and journey home."
+    },
+    {
+      "id": 12,
+      "name": "The Shining",
+      "author": "Stephen King",
+      "price": 20.49,
+      "image": "https://example.com/the-shining.jpg",
+      "description": "A horror novel about a family's winter stay at an isolated hotel with a haunted past."
+    },
+    {
+      "id": 13,
+      "name": "Brave New World",
+      "author": "Aldous Huxley",
+      "price": 15.99,
+      "image": "https://example.com/brave-new-world.jpg",
+      "description": "A dystopian novel exploring a future society where technology controls every aspect of life."
+    },
+    {
+      "id": 14,
+      "name": "Frankenstein",
+      "author": "Mary Shelley",
+      "price": 12.99,
+      "image": "https://example.com/frankenstein.jpg",
+      "description": "A Gothic novel about the consequences of scientific experimentation and the nature of humanity."
+    },
+    {
+      "id": 15,
+      "name": "Dracula",
+      "author": "Bram Stoker",
+      "price": 16.49,
+      "image": "https://example.com/dracula.jpg",
+      "description": "A classic horror novel telling the story of Count Dracula's attempt to move from Transylvania to England in order to spread the undead curse."
+    },
+    {
+      "id": 16,
+      "name": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "price": 14.99,
+      "image": "https://example.com/dorian-gray.jpg",
+      "description": "A philosophical novel about the consequences of aestheticism and the pursuit of pleasure without consequences."
+    },
+    {
+      "id": 17,
+      "name": "Alice's Adventures in Wonderland",
+      "author": "Lewis Carroll",
+      "price": 11.25,
+      "image": "https://example.com/alice-in-wonderland.jpg",
+      "description": "A whimsical tale of a young girl's adventures in a fantastical world."
+    },
+    {
+      "id": 18,
+      "name": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "price": 28.99,
+      "image": "https://example.com/lotr.jpg",
+      "description": "An epic fantasy trilogy following the journey to destroy the One Ring and defeat the Dark Lord Sauron."
+    },
+    {
+      "id": 19,
+      "name": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "price": 21.75,
+      "image": "https://example.com/brothers-karamazov.jpg",
+      "description": "A philosophical novel exploring themes of morality, faith, and the nature of existence."
+    },
+    {
+      "id": 20,
+      "name": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas",
+      "price": 19.49,
+      "image": "https://example.com/monte-cristo.jpg",
+      "description": "An adventure novel about a young sailor wrongfully imprisoned, who escapes and seeks revenge."
+    },
+    {
+      "id": 21,
+      "name": "Sherlock Holmes: A Study in Scarlet",
+      "author": "Arthur Conan Doyle",
+      "price": 14.99,
+      "image": "https://example.com/sherlock-scarlet.jpg",
+      "description": "The first Sherlock Holmes novel, introducing the detective and his companion Dr. John Watson."
+    },
+    {
+      "id": 22,
+      "name": "Sherlock Holmes: The Hound of the Baskervilles",
+      "author": "Arthur Conan Doyle",
+      "price": 16.49,
+      "image": "https://example.com/sherlock-hound.jpg",
+      "description": "One of the most famous Sherlock Holmes novels, involving a legendary demonic hound."
+    },
+    {
+      "id": 23,
+      "name": "Sherlock Holmes: The Adventures of Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "price": 17.99,
+      "image": "https://example.com/sherlock-adventures.jpg",
+      "description": "A collection of short stories featuring the brilliant detective Sherlock Holmes."
+    },
+    {
+      "id": 24,
+      "name": "Atomic Habits",
+      "author": "James Clear",
+      "price": 25.99,
+      "image": "https://example.com/atomic-habits.jpg",
+      "description": "A self-help book focusing on the science of habits and how tiny changes can lead to remarkable results."
+    },
+    {
+      "id": 25,
+      "name": "Sherlock Holmes: The Sign of the Four",
+      "author": "Arthur Conan Doyle",
+      "price": 15.75,
+      "image": "https://example.com/sherlock-sign.jpg",
+      "description": "Another intriguing case for the detective Sherlock Holmes and Dr. John Watson."
+    },
+    {
+      "id": 26,
+      "name": "Sherlock Holmes: The Memoirs of Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "price": 18.25,
+      "image": "https://example.com/sherlock-memoirs.jpg",
+      "description": "Sherlock Holmes recounts some of his most fascinating cases in this collection of stories."
+    },
+    {
+      "id": 27,
+      "name": "Sherlock Holmes: The Return of Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "price": 18.99,
+      "image": "https://example.com/sherlock-return.jpg",
+      "description": "Sherlock Holmes returns in this collection of stories, solving more mysterious cases."
+    },
+    {
+      "id": 28,
+      "name": "Sherlock Holmes: His Last Bow",
+      "author": "Arthur Conan Doyle",
+      "price": 19.49,
+      "image": "https://example.com/sherlock-last-bow.jpg",
+      "description": "The final collection of Sherlock Holmes stories, featuring his last adventures."
+    },
+    {
+      "id": 29,
+      "name": "Sherlock Holmes: The Valley of Fear",
+      "author": "Arthur Conan Doyle",
+      "price": 16.75,
+      "image": "https://example.com/sherlock-valley.jpg",
+      "description": "Sherlock Holmes investigates a mysterious murder with roots in a secret society."
+    },
+    {
+      "id": 30,
+      "name": "Sherlock Holmes: The Case-Book of Sherlock Holmes",
+      "author": "Arthur Conan Doyle",
+      "price": 20.99,
+      "image": "https://example.com/sherlock-case-book.jpg",
+      "description": "Another collection of intriguing cases solved by the brilliant detective Sherlock Holmes."
+    },
+    {
+      "id": 31,
+      "name": "The Adventures of Tom Sawyer",
+      "author": "Mark Twain",
+      "price": 14.49,
+      "image": "https://example.com/tom-sawyer.jpg",
+      "description": "A classic novel depicting the adventures of a young boy in the fictional town of St. Petersburg."
+    },
+    {
+      "id": 32,
+      "name": "The Adventures of Huckleberry Finn",
+      "author": "Mark Twain",
+      "price": 15.99,
+      "image": "https://example.com/huckleberry-finn.jpg",
+      "description": "A sequel to 'The Adventures of Tom Sawyer,' following Huck Finn's journey down the Mississippi River."
+    },
+    {
+      "id": 33,
+      "name": "The Hound of the Baskervilles",
+      "author": "Arthur Conan Doyle",
+      "price": 16.99,
+      "image": "https://example.com/hound-baskervilles.jpg",
+      "description": "A gripping Sherlock Holmes novel, where the detective investigates a supernatural hound haunting the Baskerville family."
+    },
+    {
+      "id": 34,
+      "name": "The Secret Garden",
+      "author": "Frances Hodgson Burnett",
+      "price": 12.25,
+      "image": "https://example.com/secret-garden.jpg",
+      "description": "A classic children's novel about the transformative power of nature and the joy of discovery."
+    },
+    {
+      "id": 35,
+      "name": "The Art of War",
+      "author": "Sun Tzu",
+      "price": 11.99,
+      "image": "https://example.com/art-of-war.jpg",
+      "description": "An ancient Chinese treatise on military strategy, influencing tactics and philosophy."
+    },
+    {
+      "id": 36,
+      "name": "Think and Grow Rich",
+      "author": "Napoleon Hill",
+      "price": 14.99,
+      "image": "https://example.com/think-and-grow-rich.jpg",
+      "description": "A self-help book emphasizing the role of personal belief and the subconscious mind in achieving success."
+    },
+    {
+      "id": 37,
+      "name": "One Piece",
+      "author": "Eiichiro Oda",
+      "price": 15.99,
+      "image": "https://example.com/one-piece.jpg",
+      "description": "A long-running manga series about Monkey D. Luffy and his crew of pirates as they search for the ultimate treasure, the One Piece."
+    },
+    {
+      "id": 38,
+      "name": "My Hero Academia",
+      "author": "Kohei Horikoshi",
+      "price": 16.49,
+      "image": "https://example.com/my-hero-academia.jpg",
+      "description": "In a world where people have superpowers, Izuku Midoriya strives to become a hero despite not having any powers of his own initially."
+    },
+    {
+      "id": 39,
+      "name": "Attack on Titan",
+      "author": "Hajime Isayama",
+      "price": 17.99,
+      "image": "https://example.com/attack-on-titan.jpg",
+      "description": "A manga series set in a world where humanity resides within enormous walled cities to protect themselves from gigantic humanoid creatures known as Titans."
+    },
+    {
+      "id": 40,
+      "name": "Death Note",
+      "author": "Tsugumi Ohba",
+      "price": 14.75,
+      "image": "https://example.com/death-note.jpg",
+      "description": "A psychological thriller manga about a high school student who discovers a mysterious notebook that allows him to kill anyone by writing their name in it."
+    },
+    {
+      "id": 41,
+      "name": "Naruto",
+      "author": "Masashi Kishimoto",
+      "price": 14.99,
+      "image": "https://example.com/naruto.jpg",
+      "description": "A popular manga series following the journey of Naruto Uzumaki, a young ninja with dreams of becoming the strongest ninja and leader of his village."
+    },
+    {
+      "id": 42,
+      "name": "One Punch Man",
+      "author": "ONE",
+      "price": 15.25,
+      "image": "https://example.com/one-punch-man.jpg",
+      "description": "A manga series that follows Saitama, a hero who can defeat any opponent with a single punch, as he searches for a worthy challenge."
+    },
+    {
+      "id": 43,
+      "name": "Demon Slayer: Kimetsu no Yaiba",
+      "author": "Koyoharu Gotouge",
+      "price": 18.49,
+      "image": "https://example.com/demon-slayer.jpg",
+      "description": "A manga series following Tanjiro Kamado, a young boy who becomes a demon slayer to avenge his family and save his demon-turned sister."
+    },
+    {
+      "id": 44,
+      "name": "Bleach",
+      "author": "Tite Kubo",
+      "price": 16.99,
+      "image": "https://example.com/bleach.jpg",
+      "description": "A manga series that follows Ichigo Kurosaki, a teenager with the ability to see ghosts, as he becomes a Soul Reaper to protect the living and the dead."
+    },
+    {
+      "id": 45,
+      "name": "Dragon Ball",
+      "author": "Akira Toriyama",
+      "price": 19.99,
+      "image": "https://example.com/dragon-ball.jpg",
+      "description": "A classic manga series that follows the adventures of Goku from his childhood through adulthood as he trains in martial arts and explores the world in search of the Dragon Balls."
+    }
+  ]
 }
