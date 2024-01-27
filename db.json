@@ -239,38 +239,6 @@
       "price": 20.99,
       "image": "https://example.com/sherlock-case-book.jpg",
       "description": "Another collection of intriguing cases solved by the brilliant detective Sherlock Holmes."
-    },
-    {
-      "id": 31,
-      "name": "The Adventures of Tom Sawyer",
-      "author": "Mark Twain",
-      "price": 14.49,
-      "image": "https://example.com/tom-sawyer.jpg",
-      "description": "A classic novel depicting the adventures of a young boy in the fictional town of St. Petersburg."
-    },
-    {
-      "id": 32,
-      "name": "The Adventures of Huckleberry Finn",
-      "author": "Mark Twain",
-      "price": 15.99,
-      "image": "https://example.com/huckleberry-finn.jpg",
-      "description": "A sequel to 'The Adventures of Tom Sawyer,' following Huck Finn's journey down the Mississippi River."
-    },
-    {
-      "id": 33,
-      "name": "The Hound of the Baskervilles",
-      "author": "Arthur Conan Doyle",
-      "price": 16.99,
-      "image": "https://example.com/hound-baskervilles.jpg",
-      "description": "A gripping Sherlock Holmes novel, where the detective investigates a supernatural hound haunting the Baskerville family."
-    },
-    {
-      "id": 34,
-      "name": "The Secret Garden",
-      "author": "Frances Hodgson Burnett",
-      "price": 12.25,
-      "image": "https://example.com/secret-garden.jpg",
-      "description": "A classic children's novel about the transformative power of nature and the joy of discovery."
     }
   ]
 }
