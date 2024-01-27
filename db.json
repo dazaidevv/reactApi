@@ -1,4 +1,5 @@
-[
+{
+  "books" : [
   {
     "id": 1,
     "name": "The Great Gatsby",
@@ -105,3 +106,4 @@
     "image": "https://example.com/catcher-in-the-rye.jpg"
   }
 ]
+}
