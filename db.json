@@ -4,119 +4,104 @@
     "name": "The Great Gatsby",
     "author": "F. Scott Fitzgerald",
     "price": 15.99,
-    "image": "https://example.com/great-gatsby.jpg",
-    "description": "A classic novel depicting the roaring twenties in America."
+    "image": "https://example.com/great-gatsby.jpg"
   },
   {
     "id": 2,
     "name": "To Kill a Mockingbird",
     "author": "Harper Lee",
     "price": 12.49,
-    "image": "https://example.com/to-kill-a-mockingbird.jpg",
-    "description": "A powerful portrayal of racial injustice in the American South."
+    "image": "https://example.com/to-kill-a-mockingbird.jpg"
   },
   {
     "id": 3,
     "name": "1984",
     "author": "George Orwell",
     "price": 10.99,
-    "image": "https://example.com/1984.jpg",
-    "description": "A dystopian novel exploring the dangers of totalitarianism."
+    "image": "https://example.com/1984.jpg"
   },
   {
     "id": 4,
     "name": "The Catcher in the Rye",
     "author": "J.D. Salinger",
     "price": 14.79,
-    "image": "https://example.com/catcher-in-the-rye.jpg",
-    "description": "A classic coming-of-age novel capturing the angst of adolescence."
+    "image": "https://example.com/catcher-in-the-rye.jpg"
   },
   {
     "id": 5,
     "name": "Harry Potter and the Sorcerer's Stone",
     "author": "J.K. Rowling",
     "price": 19.99,
-    "image": "https://example.com/harry-potter.jpg",
-    "description": "The first book in the beloved Harry Potter series, introducing the magical world of Hogwarts."
+    "image": "https://example.com/harry-potter.jpg"
   },
   {
     "id": 6,
     "name": "The Hobbit",
     "author": "J.R.R. Tolkien",
     "price": 18.99,
-    "image": "https://example.com/the-hobbit.jpg",
-    "description": "A classic fantasy novel, the precursor to The Lord of the Rings trilogy."
+    "image": "https://example.com/the-hobbit.jpg"
   },
   {
     "id": 7,
     "name": "Pride and Prejudice",
     "author": "Jane Austen",
     "price": 13.75,
-    "image": "https://example.com/pride-and-prejudice.jpg",
-    "description": "A timeless romantic novel exploring themes of love and societal expectations."
+    "image": "https://example.com/pride-and-prejudice.jpg"
   },
   {
     "id": 8,
     "name": "The Martian",
     "author": "Andy Weir",
     "price": 16.99,
-    "image": "https://example.com/the-martian.jpg",
-    "description": "A science fiction novel about an astronaut stranded on Mars and his struggle for survival."
+    "image": "https://example.com/the-martian.jpg"
   },
   {
     "id": 9,
     "name": "The Alchemist",
     "author": "Paulo Coelho",
     "price": 14.25,
-    "image": "https://example.com/the-alchemist.jpg",
-    "description": "A philosophical novel about a young shepherd's journey to discover his personal legend."
+    "image": "https://example.com/the-alchemist.jpg"
   },
   {
     "id": 10,
     "name": "Moby-Dick",
     "author": "Herman Melville",
     "price": 22.49,
-    "image": "https://example.com/moby-dick.jpg",
-    "description": "An epic novel exploring the obsession of Captain Ahab with the white whale, Moby-Dick."
+    "image": "https://example.com/moby-dick.jpg"
   },
   {
     "id": 11,
     "name": "The Odyssey",
     "author": "Homer",
     "price": 17.99,
-    "image": "https://example.com/the-odyssey.jpg",
-    "description": "An ancient Greek epic poem telling the story of Odysseus's adventures and journey home."
+    "image": "https://example.com/the-odyssey.jpg"
   },
   {
     "id": 12,
     "name": "The Shining",
     "author": "Stephen King",
     "price": 20.49,
-    "image": "https://example.com/the-shining.jpg",
-    "description": "A horror novel about a family's winter stay at an isolated hotel with a haunted past."
+    "image": "https://example.com/the-shining.jpg"
   },
   {
     "id": 13,
     "name": "Brave New World",
     "author": "Aldous Huxley",
     "price": 15.99,
-    "image": "https://example.com/brave-new-world.jpg",
-    "description": "A dystopian novel exploring a future society where technology controls every aspect of life."
+    "image": "https://example.com/brave-new-world.jpg"
   },
   {
     "id": 14,
     "name": "Frankenstein",
     "author": "Mary Shelley",
     "price": 12.99,
-    "image": "https://example.com/frankenstein.jpg",
-    "description": "A Gothic novel about the consequences of scientific experimentation and the nature of humanity."
+    "image": "https://example.com/frankenstein.jpg"
   },
   {
     "id": 15,
     "name": "The Catcher in the Rye",
     "author": "J.D. Salinger",
     "price": 14.79,
-    "image": "https://example.com/catcher-in-the-rye.jpg",
-    "description": "A classic coming-of-age novel capturing the angst of adolescence."
+    "image": "https://example.com/catcher-in-the-rye.jpg"
   }
 ]
